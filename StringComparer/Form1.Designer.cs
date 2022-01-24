@@ -74,6 +74,7 @@
             this.txtStringX.Name = "txtStringX";
             this.txtStringX.Size = new System.Drawing.Size(265, 20);
             this.txtStringX.TabIndex = 2;
+            this.txtStringX.Click += new System.EventHandler(this.txtStringX_Click);
             this.txtStringX.TextChanged += new System.EventHandler(this.txtStringX_TextChanged);
             // 
             // txtStringY

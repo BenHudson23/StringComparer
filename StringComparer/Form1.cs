@@ -21,7 +21,7 @@ namespace StringComparer
         {
             if (txtStringX.Text == "")
             {
-                txtStringX.Text = "Please enter a valid string";
+                MessageBox.Show("Please enter a valid string", "String X");
             }
             else if (txtStringX.Text.Any(char.IsDigit))
             {
