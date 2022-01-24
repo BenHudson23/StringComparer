@@ -35,6 +35,7 @@
             this.txtStringY = new System.Windows.Forms.TextBox();
             this.btnCalculate = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnHelp = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblTitle
@@ -86,7 +87,7 @@
             this.btnCalculate.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCalculate.Location = new System.Drawing.Point(208, 181);
             this.btnCalculate.Name = "btnCalculate";
-            this.btnCalculate.Size = new System.Drawing.Size(187, 32);
+            this.btnCalculate.Size = new System.Drawing.Size(187, 39);
             this.btnCalculate.TabIndex = 3;
             this.btnCalculate.Text = "Calculate";
             this.btnCalculate.UseVisualStyleBackColor = true;
@@ -101,11 +102,22 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Enter two strings and press calculate ";
             // 
+            // btnHelp
+            // 
+            this.btnHelp.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHelp.Location = new System.Drawing.Point(436, 334);
+            this.btnHelp.Name = "btnHelp";
+            this.btnHelp.Size = new System.Drawing.Size(115, 40);
+            this.btnHelp.TabIndex = 3;
+            this.btnHelp.Text = "Help";
+            this.btnHelp.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(563, 386);
+            this.Controls.Add(this.btnHelp);
             this.Controls.Add(this.btnCalculate);
             this.Controls.Add(this.txtStringY);
             this.Controls.Add(this.txtStringX);
@@ -129,6 +141,7 @@
         private System.Windows.Forms.TextBox txtStringY;
         private System.Windows.Forms.Button btnCalculate;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnHelp;
     }
 }
 
