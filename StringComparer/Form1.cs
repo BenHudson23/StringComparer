@@ -23,9 +23,9 @@ namespace StringComparer
             {
                 MessageBox.Show("Please enter a valid string", "String X");
             }
-            else if (txtStringX.Text.Any(char.IsDigit))
+            else if (txtStringX.TextLength > 1024)
             {
-                MessageBox.Show("Please enter a valid string", "String X");
+                MessageBox.Show("Please enter a shorter string", "String X");
                 txtStringX.Text = "";
             }
         }
@@ -36,9 +36,9 @@ namespace StringComparer
             {
                 MessageBox.Show("Please enter a valid string", "String Y");
             }
-            else if (txtStringY.Text.Any(char.IsDigit))
+            else if (txtStringY.TextLength > 1024)
             {
-                MessageBox.Show("Please enter a valid string", "String Y");
+                MessageBox.Show("Please enter a shorter string", "String Y");
                 txtStringY.Text = "";
             }
         }
