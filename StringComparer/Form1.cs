@@ -16,5 +16,17 @@ namespace StringComparer
         {
             InitializeComponent();
         }
+
+        private void txtStringX_TextChanged(object sender, EventArgs e)
+        {
+            if (txtStringX.Text == "")
+            {
+                txtStringX.Text = "Please enter a valid string";
+            }
+            else if (txtStringX.Text.Any(char.IsDigit))
+            {
+                MessageBox
+            }
+        }
     }
 }
