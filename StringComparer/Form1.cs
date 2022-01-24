@@ -26,6 +26,20 @@ namespace StringComparer
             else if (txtStringX.Text.Any(char.IsDigit))
             {
                 MessageBox.Show("Please enter a valid string", "String X");
+                txtStringX.Text = "";
+            }
+        }
+
+        private void txtStringY_TextChanged(object sender, EventArgs e)
+        {
+            if (txtStringY.Text == "")
+            {
+                MessageBox.Show("Please enter a valid string", "String Y");
+            }
+            else if (txtStringY.Text.Any(char.IsDigit))
+            {
+                MessageBox.Show("Please enter a valid string", "String Y");
+                txtStringY.Text = "";
             }
         }
     }

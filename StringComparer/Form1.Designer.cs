@@ -82,6 +82,7 @@
             this.txtStringY.Name = "txtStringY";
             this.txtStringY.Size = new System.Drawing.Size(265, 20);
             this.txtStringY.TabIndex = 2;
+            this.txtStringY.TextChanged += new System.EventHandler(this.txtStringY_TextChanged);
             // 
             // btnCalculate
             // 
